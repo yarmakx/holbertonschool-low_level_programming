@@ -1,9 +1,9 @@
  #include <stdio.h>
 
- /**
-   * main - prints the alphabet in lowercase
-   * Return: 0
-   */
+/**
+ * main - prints the alphabet in lowercase
+ * Return: 0
+ */
 int main(void)
 {
 	char letter;
@@ -16,6 +16,6 @@ int main(void)
 		if (letter == 'e' || letter == 'q')
 			letter++;
 	}
-        putchar('\n');
-        return (0);
+	putchar('\n');
+	return (0);
 }
