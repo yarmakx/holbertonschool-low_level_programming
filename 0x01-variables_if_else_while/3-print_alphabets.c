@@ -12,6 +12,6 @@ int main(void)
 		putchar(lc_letter);
 	for (uc_letter = 'A'; uc_letter <= 'Z'; uc_letter++)
 		putchar(uc_letter);
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
