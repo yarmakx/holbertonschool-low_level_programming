@@ -24,7 +24,7 @@ putchar(b + '0');
 putchar(' ');
 putchar(c + '0');
 putchar(d + '0');
-if (a != '9' || b != '8' || c != '9' || d != '9')
+if (a != 57 || b != 56 || c != 57 || d != 57)
 {
 putchar(',');
 putchar(' ');
