@@ -19,15 +19,15 @@ for (d = 0; d <= 9; d++)
 {
 if (a <= c && b < d)
 {
-putchar(a + '0');
-putchar(b + '0');
-putchar(' ');
-putchar(c + '0');
-putchar(d + '0');
+putchar(a + 48);
+putchar(b + 48);
+putchar(32);
+putchar(c + 48);
+putchar(d + 48);
 if (a != 57 || b != 56 || c != 57 || d != 57)
 {
-putchar(',');
-putchar(' ');
+putchar(44);
+putchar(32);
 }
 }
 }
