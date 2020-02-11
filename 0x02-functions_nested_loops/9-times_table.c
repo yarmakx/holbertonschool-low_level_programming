@@ -28,13 +28,10 @@ void times_table(void)
 			{
 			_putchar(' ');
 			_putchar(y + '0');
-			if (x != 8 || y != 1)
-				{
-				if (n < 9)
+			if (n < 9)
 				{
 				_putchar(',');
 				_putchar(' ');
-				}
 				}
 			}
 		}
