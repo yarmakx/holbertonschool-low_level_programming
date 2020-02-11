@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 
 /**
   * print_to_98 -  a function that prints all natural numbers from n to 98
@@ -13,7 +14,7 @@ void print_to_98(int n)
 	{
 		m = n / 10;
 		k = n % 10;
-		if (m != 9 || k != 8)
+		if (m != 9 || k != 9)
 		{	
 			if (m > 0)
 			{
