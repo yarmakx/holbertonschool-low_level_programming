@@ -6,31 +6,20 @@
   * @n: natural number
   */
 void print_to_98(int n)
-{	int m,k;
-
-	for (n = n; n <= 98; n++)
+{
+	for (n = n; n <= 97; n++)
 	{
-	if (n >= 0)
+		if (n != 98)
+			printf("%d, ", n);
+		else
+			printf("%d", n);
+	}
+	for (n = n; n > 97; n--)
 	{
-		m = n / 10;
-		k = n % 10;
-		if (m != 9 || k != 9)
-		{	
-			if (m > 0)
-			{
-				_putchar(m + '0');
-				_putchar(k + '0');
-				_putchar(',');
-				_putchar(' ');
-			}
-			else
-			{
-				_putchar(k + '0');
-				_putchar(',');
-				_putchar(' ');
-			}
-		}
+		if (n != 98)
+			printf("%d, ", n);
+		else
+			printf("%d", n);
 	}
-	}
-	_putchar('\n');
+	printf("\n");
 }
