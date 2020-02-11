@@ -18,7 +18,7 @@ void times_table(void)
 			{
 			_putchar(x + '0');
 			_putchar(y + '0');
-			if (x != 8 || y != 1)
+			if (n < 9)
 				{
 				_putchar(',');
 				_putchar(' ');
@@ -26,11 +26,15 @@ void times_table(void)
 			}
 			else
 			{
+			_putchar(' ');	
 			_putchar(y + '0');
 			if (x != 8 || y != 1)
 				{
+				if (n < 9)
+				{
 				_putchar(',');
 				_putchar(' ');
+				}
 				}
 			}
 		}
