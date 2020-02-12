@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-	int f1, f2, temp, i;
+	unsigned int f1, f2, temp, i;
 
 	f2 = 1;
 	temp = 0;
