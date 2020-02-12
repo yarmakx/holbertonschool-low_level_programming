@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "holberton.h"
 
 /*
  * main - list all the natural numbers below 1024 that are multiples of 3 or 5
