@@ -6,7 +6,8 @@
 */
 int main(void)
 {
-	unsigned int f1, f2, temp, i;
+	long int f1, f2, temp;
+	int i = 0;
 
 	f2 = 1;
 	temp = 0;
@@ -16,8 +17,10 @@ int main(void)
 		temp = f2;
 		f2 = f1 + f2;
 		f1 = temp;
-		printf("%d, ", f2);
+		printf("%ld", f2);
 		i++;
+		if (i <= 49)
+			printf(", ");
 	}
 	printf("\n");
 	return (0);
